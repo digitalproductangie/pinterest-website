@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="p:domain_verify" content="e0a87e13a8b3dc61acbf353802f78442"/>
-    <title>Angie’s Health & Wellness</title>
+    <title>Angie’s Beauty & Skincare</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 900px; }
-        h1, h2 { color: #2E7D32; }
-        img { max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
-        .section { margin-bottom: 40px; }
-        footer { margin-top: 40px; font-size: 0.9em; color: #555; text-align: center; }
-        ul { list-style-type: square; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background-color: #fff9f7; color: #4e3b31; }
+        header { background: linear-gradient(135deg, #f5d0c5, #f7e3da); padding: 30px; text-align: center; animation: fadeIn 2s ease-in-out; }
+        header h1 { margin: 0; font-size: 2.5em; color: #6d4c41; }
+        header p { font-size: 1.2em; color: #7b4f4f; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        section { margin-bottom: 50px; animation: fadeInUp 1.5s ease-in-out; }
+        h2 { color: #a9746e; margin-top: 0; }
+        img { width: 100%; border-radius: 12px; margin-bottom: 15px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        img:hover { transform: scale(1.03); }
+        a.button { display: inline-block; padding: 12px 25px; background: #a9746e; color: #fff; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+        a.button:hover { background: #8b5e59; }
+        footer { background: #f7e3da; padding: 15px; text-align: center; font-size: 0.9em; color: #6d4c41; }
+        @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+        @keyframes fadeInUp { from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);} }
     </style>
 </head>
 <body>
-    <h1>Welcome to Angie’s Health & Wellness!</h1>
-    <p>This is my space to share tips, advice, and inspiration for living a healthier, happier life.</p>
-    
-    <div class="section">
-        <h2>About Me</h2>
-        <img src="healthy-lifestyle.jpg" alt="Healthy Lifestyle">
-        <p>Hi! I’m Angie, passionate about holistic health, fitness, and wellness. Here you’ll find ideas, routines, and inspiration to help you feel your best every day.</p>
-    </div>
+    <header>
+        <h1>Angie’s Beauty & Skincare</h1>
+        <p>Luxury skincare tips & glowing beauty secrets</p>
+    </header>
 
-    <div class="section">
-        <h2>Featured Topics</h2>
-        <div>
-            <img src="fitness-routine.jpg" alt="Fitness Routine">
-            <p><strong>Fitness & Exercise:</strong> Simple routines to stay active at home or on the go.</p>
-        </div>
-        <div>
-            <img src="mindfulness.jpg" alt="Mindfulness Practice">
-            <p><strong>Mindfulness & Self-Care:</strong> Practical ways to relax, reduce stress, and boost mental wellness.</p>
-        </div>
-    </div>
+    <div class="container">
+        <section>
+            <h2>Luxury Skincare Essentials</h2>
+            <img src="luxury-skincare.jpg" alt="Luxury Skincare">
+            <p>Indulge in the finest skincare products for a radiant glow. From gold-infused serums to nourishing night creams, we explore luxury at its best.</p>
+        </section>
 
-    <div class="section">
-        <h2>Connect with Me</h2>
-        <p>Follow me on Pinterest or email me at <a href="mailto:example@email.com">example@email.com</a> to get in touch.</p>
+        <section>
+            <h2>The Natural Glow</h2>
+            <img src="natural-glow.jpg" alt="Natural Glow">
+            <p>Beauty starts with nature. Learn how to enhance your skin’s glow using plant-based products and age-old beauty rituals.</p>
+        </section>
+
+        <section>
+            <h2>Spa & Relaxation</h2>
+            <img src="spa-relaxation.jpg" alt="Spa Relaxation">
+            <p>Bring the spa home with calming treatments, essential oils, and the art of mindful self-care for a serene beauty routine.</p>
+            <a href="https://www.pinterest.com" class="button">Follow Me on Pinterest</a>
+        </section>
     </div>
 
     <footer>
-        &copy; 2025 Angie’s Health & Wellness
+        &copy; 2025 Angie’s Beauty & Skincare — All Rights Reserved
     </footer>
 </body>
 </html>
